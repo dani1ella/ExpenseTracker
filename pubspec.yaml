@@ -1,0 +1,33 @@
+name: expense_tracker
+description: "A new Flutter project."
+
+# Define SDK version
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: 6.1.2
+
+  # Local Database for Storing Expenses
+  sqflite: ^2.3.2
+  path_provider: ^2.1.3
+
+  # Chart for Expense Visualization
+  fl_chart: ^0.66.0
+
+  # Date & Time Picker for Selecting Expense Date
+  intl: ^0.19.0
+
+  # Icons for Better UI
+  font_awesome_flutter: ^10.7.0
+
+  # Local Storage for Theme Preferences
+  shared_preferences: ^2.2.3
+  flutter_test:
+    sdk: flutter
